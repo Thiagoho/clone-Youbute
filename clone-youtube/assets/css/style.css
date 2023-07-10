@@ -1,0 +1,155 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+}
+body {
+    margin: 0;
+    background:linear-gradient(#777, #5b5b5b);
+}
+/*??????????????*/
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;  
+    border-bottom: 2px solid #777;
+}
+.youtube-logo {
+    height: 20px;
+    margin: 9px;
+    
+
+}
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+}
+.search-input {
+    width: 90%;
+    font-size: initial;
+    padding: .4rem;
+    border: 2px solid #6f6f6f77;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: rgb(0, 0, 0);
+}
+.search-btn {
+    display: flex;
+    align-items: center;
+    padding: 0 1.18rem;
+    border: 1px solid #777;
+    background-color: #888;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.search-btn:hover {
+    background-color: #f0f0f0;
+}
+.menu-icons {
+   display: grid;
+   grid-template-columns: repeat(4, auto);
+   align-items: center;
+   gap:1.4vw;
+}
+.menu-channel-icon{
+    border-radius: 50%;
+}
+/*Estruturando o Videio Center*/
+.videos {
+    display: flex;
+    padding: 0 1.8em;
+    border-bottom:2px solid #777;
+    
+}
+/*Estrutura do rodapé do vídeo*/
+.video-container,.container {
+    display: flex;
+    width: 70vw;
+    height: 86vh;
+    border-radius: 12px;
+}
+.video-datalis {
+    display: flex;
+    font-size: 30px;
+    padding:  2px;
+    padding-left: 1rem;
+
+}
+
+.main {
+    width: 90%;
+    height: 20px;
+    padding:0 1.4em;
+}
+.profile {
+    position: absolute;
+    margin: 3px;
+    left: 12px;
+    padding: 30px;
+    padding-left: 29px; 
+
+}
+.profile img {
+    width: 15%;
+    height: 20%;
+    border-radius: 40px;
+}
+.profile span {
+    font-size: 23px;
+    font-family: fantasy;
+}
+.categories {
+    display: flex;
+    padding-left: 650px;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+.category {
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 900px;
+    background-color: #aeaeae;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color: 150s;
+
+}
+.category:hover {
+    background-color: #eaeaea;
+
+}
+/*lado Esquerdo da minha tela*/
+
+#cont-01 {
+    float:right;
+    left: 55%;
+    display:block;
+    align-items:end ;
+    justify-content:end;
+    flex-direction: column;
+ 
+}
+.item img{
+    border: 1px solid rgb(248, 247, 246);
+    width: 100%;
+    height: 126px;
+ 
+}
+
+
+
+
+
+
+
